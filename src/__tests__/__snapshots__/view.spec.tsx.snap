@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view snapshot 1`] = `
+<Component
+  text="てきすと"
+>
+  <div>
+    てきすと
+  </div>
+</Component>
+`;
