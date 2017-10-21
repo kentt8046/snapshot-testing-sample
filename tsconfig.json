@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "jsx": "react",
+    // "declaration": true, /* Generates corresponding '.d.ts' file. */
+    "sourceMap": true,
+    "removeComments": true,
+    // "noEmit": true,                        /* Do not emit outputs. */
+    "importHelpers": false,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "sourceRoot": "./src",
+    "outDir": "./build"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./index.d.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`service createUser - snapshot 1`] = `
+Object {
+  "accountName": "test",
+  "email": "test@email.com",
+  "firstName": "太郎",
+  "lastName": "てすと",
+}
+`;
